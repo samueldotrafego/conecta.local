@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Serviços - Conecta Local</title>
+  <title>Conecta Local - Google Meu Negócio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -40,7 +40,21 @@
       padding-left: 0;
     }
     li::before {
-      content: "💼 ";
+      content: "✅ ";
+    }
+    .button {
+      display: block;
+      text-align: center;
+      background: #00796B;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    .button:hover {
+      background: #005e51;
     }
   </style>
 </head>
@@ -50,16 +64,18 @@
     <a href="servicos.html">Serviços</a>
   </nav>
   <div class="container">
-    <h1>Nossos Serviços</h1>
+    <h1>Plano Local Essencial</h1>
+    <p>O serviço ideal para quem quer atrair mais clientes todos os dias com o Google Meu Negócio otimizado.</p>
+    <h3>O que está incluso:</h3>
     <ul>
-      <li>Otimização do Google Meu Negócio</li>
-      <li>Gestão de Anúncios no Google Ads</li>
-      <li>Gestão de Anúncios no Meta Ads (Facebook/Instagram)</li>
-      <li>Edição de Vídeos para Reels e Anúncios</li>
-      <li>Consultoria de Marketing Local</li>
+      <li>Atualização completa do seu perfil</li>
+      <li>Postagens otimizadas semanalmente</li>
+      <li>Melhoria de ranqueamento no Google Maps</li>
+      <li>Relatório mensal de desempenho</li>
+      <li>Suporte direto via WhatsApp</li>
     </ul>
-    <p>Quer receber uma proposta personalizada? Me chama no WhatsApp 👇</p>
-    <a href="https://wa.me/55071999299785" class="button" target="_blank">Falar com Samuel</a>
+    <h2>R$ 300/mês</h2>
+    <a href="https://api.whatsapp.com/send/?phone=71999299785&text=Quero+Come%C3%A7ar+Agora+%E2%9C%85" class="button" target="_blank">Quero começar agora!</a>
   </div>
 </body>
 </html>
